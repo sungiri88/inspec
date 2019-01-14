@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>inspec</id>
+    <version>2.1.43</version>
+    <title>Inspec</title>
+    <authors>Ferguson</authors>
+    <projectUrl>https://packages.chef.io/files/stable/inspec/2.1.43/windows/2016/inspec-2.1.43-1-x64.msi</projectUrl>
+    <tags>Inspec</tags>
+    <summary>Install Inspec</summary>
+    <description>__REPLACE__MarkDown_Okay </description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
